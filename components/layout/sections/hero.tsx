@@ -22,7 +22,7 @@ export const HeroSection = () => {
             <Tooltip>
               <Badge variant={"outline"} className="text-sm py-2" >
 
-              <TooltipTrigger>Healthify</TooltipTrigger>
+                <TooltipTrigger>Healthify</TooltipTrigger>
               </Badge>
 
               <TooltipContent>
@@ -33,23 +33,26 @@ export const HeroSection = () => {
 
           <div className="max-w-screen-md mx-auto text-center ">
             <h1 className="text-4xl md:text-6xl font-bold">
-              
+
               <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-              Level Up Your Code, Without Burning Out
+                Level Up Your Code, Without Burning Out
               </span>
-              
+
             </h1>
             <p>Track your health, boost productivity, and combat burnout with
               tailored wellness tools for developers.</p>
           </div>
 
-          
+
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Get Started
-              <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
-            </Button>
+            <Link href="/signup">
+              <Button className="w-5/6 md:w-1/4 font-bold group/arrow" >
+
+                Get Started
+                <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
 
             <Button
               asChild

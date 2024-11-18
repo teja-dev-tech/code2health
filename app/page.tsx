@@ -1,4 +1,4 @@
-
+import {Navbar} from "../components/layout/Navbar"
 import { HeroSection } from "@/components/layout/sections/hero"
 import {BenefitsSection} from "@/components/layout/sections/benefits"
 import { FeaturesSection } from "@/components/layout/sections/features"
@@ -16,7 +16,7 @@ export const metadata = {
 }
 export default function Home() {
   return (<>
-
+     <Navbar />
     <HeroSection />
     <BenefitsSection />
     <FeaturesSection />
